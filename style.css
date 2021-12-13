@@ -1,0 +1,36 @@
+#contenedor{
+    display: grid;
+    
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    height: 500px;
+   
+}
+h1{
+    color:rgb(31, 53, 177);
+    padding: 10px;
+}
+
+#botonclick{
+    width: 200px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.botones{
+    display:flex;
+    
+    grid-gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
